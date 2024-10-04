@@ -69,7 +69,7 @@ export class RestClient {
         public: options.consumerKey,
         secret: options.consumerSecret
       },
-      signature_method: 'HMAC-SHA1'
+      signature_method: 'HMAC-SHA256'
     });
     this.token = {
       public: options.accessToken,
